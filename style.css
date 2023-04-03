@@ -1,0 +1,1635 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.logosec {
+    display: flex;
+    /* flex-direction: column; */
+    align-items: center;
+    justify-content: center;
+    /* background: yellowgreen; */
+    width: 49rem;
+    height: 4rem;
+    margin: 0rem 55rem 0rem 0rem;
+    position: absolute;
+    padding: 0rem 0rem;
+}
+
+.logo {
+    width: 2.5rem;
+    margin: 0rem 0.4rem 0rem 1rem;
+}
+
+.namelogo {
+    width: 25rem;
+}
+
+.menu {
+    display: flex;
+    background: rgb(0, 0, 0, 0.2);
+    justify-content: end;
+    position: sticky;
+}
+
+.menu ul {
+    list-style: none;
+    display: flex;
+    /* background: red; */
+    height: 4rem;
+    align-items: center;
+    width: 25rem;
+    justify-content: space-around;
+    font-size: 1.3rem;
+    cursor: pointer;
+}
+
+.menu,
+a,
+ul,
+li {
+    color: white;
+    text-decoration: none;
+}
+
+.backgroundimage>img {
+    width: 100%;
+    height: 114%;
+    margin: -4.5rem 0rem 0rem 0rem;
+    z-index: -1;
+    position: absolute;
+    /* overflow: hidden; */
+}
+
+.formbg2 {
+    display: none;
+    height: 72rem;
+}
+
+.headercontent {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: absolute;
+    margin: 16rem 23rem;
+    width: 50rem;
+    text-align: center;
+    line-height: 4rem;
+    font-size: 2rem;
+    background: rgba(0, 0, 0, 0.5);
+    box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+    color: snow;
+    padding: 1rem 1rem;
+}
+
+.headercontent>p {
+    font-size: 1.5rem;
+}
+
+.headercontent>hr {
+    position: absolute;
+    /* margin: 0rem; */
+    width: 39rem;
+    height: 0.2rem;
+    border-radius: 10rem;
+    background: coral;
+    border: 1px solid coral;
+}
+
+.services {
+    /* position: absolute; */
+    margin: 50.5rem 0rem 0rem 0rem;
+    height: 53rem;
+    background-image: url(images/woring\ hour\ bg3.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.servicesheading {
+    /* background: wheat; */
+    margin: -4rem 0rem 0rem 0rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem 0rem 1rem 0rem;
+}
+
+.servicestagline {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(0, 0, 0, 0.5);
+}
+
+.servicestagline>h1 {
+    padding: 2rem 1rem 2rem 1rem;
+    color: white;
+    font-style: italic;
+    word-spacing: 11px;
+    letter-spacing: 8px;
+}
+
+
+.about {
+    /* background: yellowgreen; */
+    background-image: url(images/about\ img.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    line-height: 3rem;
+    letter-spacing: 0.1rem;
+    height: 41rem;
+    color: white;
+    margin: 0.2rem 0rem 2rem 0rem;
+}
+
+.ownerpic {
+    /* background: palevioletred; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 23rem;
+    height: 18rem;
+}
+
+
+.ownerpic>img {
+    width: 11rem;
+    position: relative;
+    margin: -3rem 0rem;
+    border-radius: 50%;
+}
+
+.ownerpic>p {
+    margin: 3rem 0rem 0rem 0rem;
+    position: relative;
+    /* color: black; */
+    font-size: x-large;
+    background: rgba(0, 0, 0, 0.5);
+    padding: 1rem 1rem;
+    border-radius: 1rem;
+}
+
+.aboutheading {
+    /* background: violet; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem 0rem 1rem 0rem;
+}
+
+.forAboutHeadingAndAboutDescription {
+    padding: 2rem 1rem 2rem 1rem;
+    background: rgba(0, 0, 0, 0.4);
+    border-radius: 2rem;
+    width: 77rem;
+
+    margin: 1rem 0rem -3rem 0rem;
+}
+
+.contactsection {
+    background-color: teal;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 36rem;
+    margin: 6rem 0rem 2rem 0rem;
+    background-image: url(images/woring\ hour\ bg2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+.contactus {
+    background: rgba(0, 0, 0, 0.4);
+    border-radius: 1rem;
+    width: 30rem;
+    color: white;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    line-height: 3rem;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+    /* margin: -18rem 0rem 0rem 0rem; */
+}
+
+.contactinfofornumber {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    width: 11rem;
+}
+
+.contactinfofornumber>img {
+    width: 2rem;
+}
+
+.contactinfofornumber>a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.5rem;
+}
+
+.contactinfoformail {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 12rem;
+}
+
+.contactinfoformail>img {
+    width: 2rem;
+}
+
+.contactinfoformail>a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.5rem;
+}
+
+.googlemap {
+    padding: 1rem 0rem 1rem 0rem;
+}
+
+iframe {
+    border: 0;
+    width: 45rem;
+    border-radius: 1rem;
+    width: 100%;
+}
+
+.workinfo {
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+
+.workingdays {
+    background: rgba(0, 0, 0, 0.4);
+    /* margin: 15rem 0rem 0rem -85rem; */
+    width: 30rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem 0rem 1rem 0rem;
+    border-radius: 1rem;
+    flex-direction: column;
+    line-height: 2rem;
+    text-align: center;
+    color: white;
+}
+
+/* ////////////////////////////// */
+
+.drop {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    margin: 4rem 0rem;
+    line-height: 2rem;
+    font-size: 1.2rem;
+}
+
+.for-shadow {
+    background-color: rgba(0, 0, 0, 0.5);
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+    text-align: center;
+    padding: 1rem 1rem;
+    transition: transform .3s;
+}
+
+.for-shadow:hover {
+    transform: scale(1.1);
+}
+
+.drop>div>ul>li {
+    list-style: none;
+}
+
+.drop>div>ul>li:nth-child(1) {
+    color: white;
+    background-color: rgba(47, 45, 46, 0.3);
+}
+
+/* //////////////////////// */
+/* footer */
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem 1rem 1rem 1rem;
+}
+
+.for-vertical-line {
+    height: 18px;
+    width: 2px;
+    background: black;
+    margin: 0px 3px;
+}
+
+.formbg2 {
+    display: none;
+}
+
+/* responsive website */
+@media (max-width:1024px) {
+    .menu {
+        width: 73rem;
+    }
+
+    .logosec {
+        margin: 0rem 32rem 0rem 0rem;
+    }
+
+    .backgroundimage>img {
+        width: 73rem;
+    }
+
+    .headercontent {
+        margin: 12rem 12rem;
+    }
+
+    .services {
+        width: 73rem;
+    }
+
+    .servicestagline>h1 {
+        font-size: 1.5rem;
+    }
+
+    .about {
+        width: 73rem;
+        background-position-x: center;
+    }
+
+    .forAboutHeadingAndAboutDescription {
+        width: 63rem;
+    }
+
+    .contactsection {
+        width: 73rem;
+        background-position-x: center;
+    }
+
+    .googlemap {
+        width: 73rem;
+    }
+
+    .footer {
+        margin: 1rem 0rem 1rem 0rem;
+        width: 73rem;
+    }
+}
+
+@media (min-width:320px) and (max-width:426px) {
+    .formbg1 {
+        display: none;
+    }
+
+    .backgroundimage>.formbg2 {
+        display: block;
+        height: 101rem;
+    }
+
+    .headercontent {
+        font-size: 4rem;
+        line-height: 10rem;
+        width: 60rem;
+        margin: 27rem 7rem;
+        word-spacing: 0rem;
+        height: 46rem;
+    }
+
+    .headercontent>hr {
+        margin-top: 31rem;
+        width: 57rem;
+    }
+
+    .headercontent>p {
+        line-height: 4rem;
+        font-size: 3rem;
+
+    }
+
+    .services {
+        margin-top: 72rem;
+        background-image: url(images/mobile-bg2.webp);
+        margin-top: 102rem;
+        height: 162rem;
+        background-position-x: center;
+    }
+
+    .servicesheading {
+        font-size: 2.9rem;
+        color: white;
+        position: relative;
+        top: 4rem;
+        letter-spacing: 1.5rem;
+    }
+
+    .servicestagline {
+        margin-top: 10rem;
+    }
+
+    .servicestagline>h1 {
+        font-size: 4rem;
+        text-align: center;
+        line-height: 6rem;
+    }
+
+    .drop {
+        flex-direction: column;
+    }
+
+    .haematology {
+        width: 66rem;
+        font-size: 3rem;
+        line-height: 5rem;
+        margin: 0rem 3rem;
+    }
+
+    .haematology>ul {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+        line-height: 7rem;
+    }
+
+    .haematology>ul>li {
+        margin: 0rem 3rem;
+    }
+
+    .biochemistry {
+        width: 66rem;
+        font-size: 3rem;
+        line-height: 5rem;
+        margin: 1rem 3rem;
+    }
+
+    .biochemistry>ul {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+        line-height: 7rem;
+    }
+
+    .biochemistry>ul>li {
+        margin: 0rem 3rem;
+    }
+
+    .serology {
+        width: 66rem;
+        font-size: 3rem;
+        line-height: 5rem;
+        margin: 1rem 3rem;
+    }
+
+    .serology>ul {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+        line-height: 7rem;
+    }
+
+    .serology>ul>li {
+        margin: 0rem 3rem;
+    }
+
+    .clinical-pathology {
+        width: 66rem;
+        font-size: 3rem;
+        line-height: 5rem;
+        margin: 1rem 3rem;
+    }
+
+    .clinical-pathology>ul {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+        line-height: 7rem;
+    }
+
+    .clinical-pathology>ul>li {
+        margin: 0rem 3rem;
+    }
+
+    .other {
+        width: 66rem;
+        font-size: 3rem;
+        line-height: 5rem;
+        margin: 1rem 3rem;
+    }
+
+    .other>ul {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+        line-height: 7rem;
+    }
+
+    .other>ul>li {
+        margin: 0rem 3rem;
+    }
+
+    .about {
+        height: 129rem;
+        /* background-position-x: -45rem; */
+        background-image: url(images/mobilebg3.jpg);
+    }
+
+    .ownerpic>img {
+        width: 28rem;
+    }
+
+    .ownerpic>p {
+        top: 2rem;
+        width: 34rem;
+        font-size: 3.5rem;
+        line-height: 6rem;
+    }
+
+    .forAboutHeadingAndAboutDescription {
+        margin: 20rem 0rem 0rem 0rem;
+        position: relative;
+        font-size: 2rem;
+        line-height: 6rem;
+    }
+
+    .contactsection {
+        height: 122rem;
+        margin: -1rem 0rem 1rem 0rem;
+        flex-direction: column;
+        justify-content: space-evenly;
+        background-image: url(images/mobile\ bg4.jpg);
+    }
+
+    .contactus {
+        height: 36rem;
+        font-size: 2.5rem;
+        width: 67rem;
+        margin: 3rem 0rem 3rem 0rem;
+    }
+
+    .contactinfofornumber {
+        line-height: 12rem;
+        column-gap: 2rem;
+        flex-wrap: nowrap;
+    }
+
+    .contactinfofornumber>img {
+        width: 11rem;
+        height: 5rem;
+    }
+
+    .contactinfofornumber>a {
+        font-size: 3.5rem;
+    }
+
+    .contactinfoformail {
+        width: 39rem;
+    }
+
+    .contactinfoformail>img {
+        width: 6rem;
+    }
+
+    .contactinfoformail>a {
+        font-size: 4.5rem;
+    }
+
+    .workingdays {
+        height: 73rem;
+        font-size: 3.5rem;
+        line-height: 7rem;
+        width: 66rem;
+    }
+
+    .googlemap>iframe {
+        height: 100rem;
+    }
+
+    .footer {
+        font-size: 2.3rem;
+    }
+
+    .for-vertical-line {
+        height: 46px;
+        width: 6px;
+        margin: 0px 10px;
+        border-radius: 5rem;
+    }
+
+
+}
+
+@media (min-width:768px) and (max-width:1024px) {
+
+    .logosec {
+        margin: 0rem 33rem
+    }
+
+    .formbg1 {
+        height: 48rem;
+    }
+
+    .services {
+        margin: 38.5rem 0rem 0rem 0rem;
+    }
+
+    .contactsection {
+        margin: -1.5rem 0rem 2rem 0rem;
+    }
+
+    iframe {
+        margin-top: -2.5rem;
+    }
+}
+
+@media (min-width:1025px) and (max-width:1088px) {
+    .menu {
+        width: 73rem;
+    }
+
+    .logosec {
+        margin: 0rem 33rem;
+    }
+
+    .headercontent {
+        margin: 12rem 10.2rem;
+        width: 54rem;
+    }
+
+    .backgroundimage>.formbg1 {
+        width: 73rem;
+    }
+
+    .services {
+        margin: 38.5rem 0rem 0rem 0rem;
+        width: 73rem;
+    }
+
+    .servicestagline>h1 {
+        font-size: 1.5rem;
+    }
+
+    .about {
+        width: 73rem;
+        background-position-x: center;
+    }
+
+    .forAboutHeadingAndAboutDescription {
+        width: 66rem;
+    }
+
+    .contactsection {
+        margin-top: -1.5rem;
+        width: 73rem;
+    }
+
+    .googlemap {
+        width: 73rem;
+        margin-top: -2.5rem;
+    }
+
+    .footer {
+        margin: 1rem -5rem 1rem 1rem;
+    }
+}
+
+@media (min-width:1089px) and (max-width:1200px) {
+    .menu {
+        width: 80rem;
+    }
+
+    .logosec {
+        margin: 0rem 33rem;
+    }
+
+    .headercontent {
+        margin: 12rem 14.2rem;
+        width: 54rem;
+    }
+
+    .backgroundimage>.formbg1 {
+        width: 80rem;
+    }
+
+    .services {
+        margin: 38.5rem 0rem 0rem 0rem;
+        width: 80rem;
+    }
+
+    .servicestagline>h1 {
+        font-size: 1.5rem;
+    }
+
+    .about {
+        width: 80rem;
+        background-position-x: center;
+    }
+
+    .forAboutHeadingAndAboutDescription {
+        width: 66rem;
+    }
+
+    .contactsection {
+        margin-top: -1.5rem;
+        width: 80rem;
+    }
+
+    .googlemap {
+        width: 80rem;
+        margin-top: -2.5rem;
+    }
+
+    .footer {
+        margin: 1rem -5rem 1rem 1rem;
+    }
+
+}
+
+@media (min-width:1200px) and (max-width:1204px) {
+    .menu {
+        width: 80.2rem;
+    }
+
+    .logosec {
+        margin: 0rem 33rem;
+    }
+
+    .headercontent {
+        margin: 12rem 14.2rem;
+        width: 54rem;
+    }
+
+    .backgroundimage>.formbg1 {
+        width: 80.2rem;
+    }
+
+    .services {
+        margin: 38.5rem 0rem 0rem 0rem;
+        width: 80.2rem;
+    }
+
+    .servicestagline>h1 {
+        font-size: 1.5rem;
+    }
+
+    .about {
+        width: 80.2rem;
+        background-position-x: center;
+    }
+
+    .forAboutHeadingAndAboutDescription {
+        width: 66rem;
+    }
+
+    .contactsection {
+        margin-top: -1.5rem;
+        width: 80.2rem;
+    }
+
+    .googlemap {
+        width: 80.2rem;
+        margin-top: -2.5rem;
+    }
+
+    .footer {
+        margin: 1rem -5rem 1rem 1rem;
+    }
+
+}
+
+@media (min-width:1205px) and (max-width:1216px) {
+    .menu {
+        width: 81rem;
+    }
+
+    .logosec {
+        margin: 0rem 33rem;
+    }
+
+    .headercontent {
+        margin: 12rem 14.2rem;
+        width: 54rem;
+    }
+
+    .backgroundimage>.formbg1 {
+        width: 81rem;
+    }
+
+    .services {
+        margin: 38.5rem 0rem 0rem 0rem;
+        width: 81rem;
+    }
+
+    .servicestagline>h1 {
+        font-size: 1.5rem;
+    }
+
+    .about {
+        width: 81rem;
+        background-position-x: center;
+    }
+
+    .forAboutHeadingAndAboutDescription {
+        width: 66rem;
+    }
+
+    .contactsection {
+        margin-top: -1.5rem;
+        width: 81rem;
+    }
+
+    .googlemap {
+        width: 81rem;
+        margin-top: -2.5rem;
+    }
+
+    .footer {
+        margin: 1rem -5rem 1rem 1rem;
+    }
+
+}
+
+@media (min-width:1217px) and (max-width:1228px) {
+    .menu {
+        width: 81.8rem;
+    }
+
+    .logosec {
+        margin: 0rem 40rem;
+    }
+
+    .headercontent {
+        margin: 10rem 16.2rem;
+        width: 54rem;
+    }
+
+    .backgroundimage>.formbg1 {
+        width: 81.8rem;
+    }
+
+    .services {
+        margin: 38.5rem 0rem 0rem 0rem;
+        width: 81.8rem;
+    }
+
+    .servicestagline>h1 {
+        font-size: 1.5rem;
+    }
+
+    .about {
+        width: 81.8rem;
+        background-position-x: center;
+    }
+
+    .forAboutHeadingAndAboutDescription {
+        width: 66rem;
+    }
+
+    .contactsection {
+        margin-top: -1.5rem;
+        width: 81.8rem;
+    }
+
+    .googlemap {
+        width: 81.8rem;
+        margin-top: -2.5rem;
+    }
+
+    .footer {
+        margin: 1rem -5rem 1rem 1rem;
+    }
+
+}
+
+@media (min-width:1228px) and (max-width:1300px) {
+    .menu {
+        width: 86.3rem;
+    }
+
+    .logosec {
+        margin: 0rem 40rem;
+    }
+
+    .headercontent {
+        margin: 10rem 16.2rem;
+        width: 54rem;
+    }
+
+    .backgroundimage>.formbg1 {
+        width: 86.3rem;
+    }
+
+    .services {
+        margin: 38.5rem 0rem 0rem 0rem;
+        width: 86.3rem;
+    }
+
+    .servicestagline>h1 {
+        font-size: 1.5rem;
+    }
+
+    .about {
+        width: 86.3rem;
+        background-position-x: center;
+    }
+
+    .forAboutHeadingAndAboutDescription {
+        width: 66rem;
+    }
+
+    .contactsection {
+        margin-top: -1.5rem;
+        width: 86.3rem;
+    }
+
+    .googlemap {
+        width: 86.3rem;
+        margin-top: -2.5rem;
+    }
+
+    .footer {
+        margin: 1rem -5rem 1rem 1rem;
+    }
+
+}
+
+@media (min-width:1301px) and (max-width:1439px) {
+    .menu {
+        /* width: 92.48rem; */
+        width: 94.9rem;
+        ;
+    }
+
+    .logosec {
+        margin: 0rem 49rem;
+    }
+
+    .headercontent {
+        margin: 10rem 16.2rem;
+        width: 54rem;
+    }
+
+    .backgroundimage>.formbg1 {
+        width: 94.9rem;
+    }
+
+    .services {
+        margin: 38.5rem 0rem 0rem 0rem;
+        width: 94.9rem;
+        ;
+    }
+
+    .servicestagline>h1 {
+        font-size: 1.5rem;
+    }
+
+    .about {
+        width: 94.9rem;
+        ;
+        background-position-x: center;
+    }
+
+    .forAboutHeadingAndAboutDescription {
+        width: 66rem;
+    }
+
+    .contactsection {
+        margin-top: -1.5rem;
+        width: 94.9rem;
+        ;
+    }
+
+    .googlemap {
+        width: 94.9rem;
+        ;
+        margin-top: -2.5rem;
+    }
+
+    .footer {
+        margin: 1rem -5rem 1rem 1rem;
+    }
+
+}
+
+@media (min-width:1440px) and (max-width:1480px) {
+    .logosec {
+        margin: 0rem 50rem 0rem 0rem;
+    }
+
+    .backgroundimage>img {
+        height: 54rem;
+    }
+
+    .headercontent {
+        margin: 13rem 22.3rem;
+    }
+
+    .services {
+        margin-top: 54rem;
+    }
+
+    .contactsection {
+        height: 40rem;
+        margin: -1.9rem 0rem -0.8rem 0rem;
+    }
+
+    .googlemap {
+        padding: 1rem 0rem 0rem 0rem;
+    }
+}
+
+@media (min-width:1481px) and (max-width:1540px) {
+    .logosec {
+        margin: 0rem 50rem 0rem 0rem;
+    }
+
+    .backgroundimage>img {
+        height: 54rem;
+    }
+
+    .headercontent {
+        margin: 13rem 22.3rem;
+    }
+
+    .services {
+        margin-top: 54rem;
+    }
+
+    .contactsection {
+        height: 40rem;
+        margin: -1.9rem 0rem -0.8rem 0rem;
+    }
+
+    .googlemap {
+        padding: 1rem 0rem 0rem 0rem;
+    }
+}
+
+@media (min-width:1540px) and (max-width:1619px) {
+    .logosec {
+        margin: 0rem 58rem 0rem 0rem;
+    }
+
+    .backgroundimage>img {
+        height: 54rem;
+    }
+
+    .headercontent {
+        margin: 13rem 23.3rem;
+    }
+
+    .services {
+        margin-top: 54rem;
+    }
+
+    .contactsection {
+        height: 40rem;
+        margin: -1.9rem 0rem -0.8rem 0rem;
+    }
+
+    .googlemap {
+        padding: 1rem 0rem 0rem 0rem;
+    }
+}
+
+@media (min-width:1619px) and (max-width:1631px) {
+    .logosec {
+        margin: 0rem 58rem 0rem 0rem;
+    }
+
+    .backgroundimage>img {
+        height: 54rem;
+    }
+
+    .headercontent {
+        margin: 14rem 23.3rem;
+        ;
+    }
+
+    .services {
+        margin-top: 54rem;
+    }
+
+    .contactsection {
+        height: 40rem;
+        margin: -1.9rem 0rem -0.8rem 0rem;
+    }
+
+    .googlemap {
+        padding: 1rem 0rem 0rem 0rem;
+    }
+}
+
+@media (min-width:1631px) and (max-width:1700px) {
+    .logosec {
+        margin: 0rem 58rem 0rem 0rem;
+    }
+
+    .backgroundimage>img {
+        height: 54rem;
+    }
+
+    .headercontent {
+        margin: 14rem 28.3rem;
+    }
+
+    .services {
+        margin-top: 54rem;
+        height: 60rem;
+    }
+
+    .about {
+        height: 48rem;
+        background-position-x: center;
+    }
+
+    .contactsection {
+        height: 40rem;
+        margin: -1.9rem 0rem -0.8rem 0rem;
+    }
+
+    .googlemap {
+        padding: 1rem 0rem 0rem 0rem;
+    }
+}
+
+@media (min-width:1701px) and (max-width:1765px) {
+    .logosec {
+        margin: 0rem 67rem 0rem 0rem;
+    }
+
+    .backgroundimage>img {
+        height: 54rem;
+    }
+
+    .services {
+        margin-top: 54rem;
+        height: 60rem;
+    }
+
+    .about {
+        height: 48rem;
+        background-position-x: center;
+    }
+
+    .services {
+        margin-top: 54rem;
+    }
+
+    .contactsection {
+        height: 40rem;
+        margin: -1.9rem 0rem -0.8rem 0rem;
+    }
+
+    .googlemap {
+        padding: 1rem 0rem 0rem 0rem;
+    }
+}
+
+@media (min-width:1765px) and (max-width:1800px) {
+    .logosec {
+        margin: 0rem 67rem 0rem 0rem;
+    }
+
+    .backgroundimage>img {
+        height: 54rem;
+    }
+
+    .headercontent {
+        margin: 14rem 30.3rem;
+    }
+
+    .services {
+        margin-top: 54rem;
+        height: 60rem;
+    }
+
+    .about {
+        height: 48rem;
+        background-position-x: center;
+    }
+
+
+    .contactsection {
+        height: 40rem;
+        margin: -1.9rem 0rem -0.8rem 0rem;
+    }
+
+    .googlemap {
+        padding: 1rem 0rem 0rem 0rem;
+    }
+}
+
+@media (min-width:1800px) and (max-width:1817px) {
+    .logosec {
+        margin: 0rem 67rem 0rem 0rem;
+    }
+
+    .backgroundimage>img {
+        height: 54rem;
+    }
+
+    .headercontent {
+        margin: 14rem 31.3rem;
+    }
+
+    .services {
+        margin-top: 54rem;
+        height: 60rem;
+    }
+
+    .about {
+        height: 48rem;
+        background-position-x: center;
+    }
+
+
+    .contactsection {
+        height: 40rem;
+        margin: -1.9rem 0rem -0.8rem 0rem;
+    }
+
+    .googlemap {
+        padding: 1rem 0rem 0rem 0rem;
+    }
+}
+
+@media (min-width:1817px) and (max-width:1849px) {
+    .logosec {
+        margin: 0rem 67rem 0rem 0rem;
+    }
+
+    .backgroundimage>img {
+        height: 54rem;
+    }
+
+    .headercontent {
+        margin: 14rem 31.3rem;
+    }
+
+    .services {
+        margin-top: 54rem;
+        height: 60rem;
+    }
+
+    .about {
+        height: 48rem;
+        background-position-x: center;
+    }
+
+
+    .contactsection {
+        height: 50rem;
+        margin: -1.9rem 0rem -0.8rem 0rem;
+    }
+
+    .googlemap {
+        padding: 1rem 0rem 0rem 0rem;
+    }
+}
+
+@media (min-width:1849px) and (max-width:1870px) {
+    .logosec {
+        margin: 0rem 67rem 0rem 0rem;
+    }
+
+    .backgroundimage>img {
+        height: 54rem;
+    }
+
+    .headercontent {
+        margin: 14rem 32.3rem;
+    }
+
+    .services {
+        margin-top: 54rem;
+        height: 60rem;
+    }
+
+    .about {
+        height: 48rem;
+        background-position-x: center;
+    }
+
+
+    .contactsection {
+        height: 50rem;
+        margin: -1.9rem 0rem -0.8rem 0rem;
+    }
+
+    .googlemap {
+        padding: 1rem 0rem 0rem 0rem;
+    }
+}
+
+@media (min-width:1870px) and (max-width:1900px) {
+    .logosec {
+        margin: 0rem 67rem 0rem 0rem;
+    }
+
+    .backgroundimage>img {
+        height: 54rem;
+    }
+
+    .headercontent {
+        margin: 14rem 33.3rem;
+    }
+
+    .services {
+        margin-top: 54rem;
+        height: 60rem;
+    }
+
+    .about {
+        height: 48rem;
+        background-position-x: center;
+    }
+
+
+    .contactsection {
+        height: 50rem;
+        margin: -1.9rem 0rem -0.8rem 0rem;
+    }
+
+    .googlemap {
+        padding: 1rem 0rem 0rem 0rem;
+    }
+
+}
+
+@media (min-width:1900px) and (max-width:2000px) {
+    .logosec {
+        margin: 0rem 67rem 0rem 0rem;
+    }
+
+    .backgroundimage>img {
+        height: 54rem;
+    }
+
+    .headercontent {
+        margin: 14rem 34.3rem;
+    }
+
+    .services {
+        margin-top: 54rem;
+        height: 50rem;
+        background-position-y: center;
+    }
+
+    .about {
+        height: 48rem;
+        background-position-x: center;
+    }
+
+
+    .contactsection {
+        height: 50rem;
+        margin: -1.9rem 0rem -0.8rem 0rem;
+    }
+
+    .googlemap {
+        padding: 1rem 0rem 0rem 0rem;
+    }
+}
+
+@media (min-width:2000px) and (max-width:2040px) {
+    .logosec {
+        margin: 0rem 84rem 0rem 0rem;
+    }
+
+    .backgroundimage>img {
+        height: 54rem;
+    }
+
+    .headercontent {
+        margin: 14rem 38.3rem;
+    }
+
+    .services {
+        margin-top: 54rem;
+        height: 50rem;
+        background-position-y: center;
+    }
+
+    .about {
+        height: 65rem;
+        background-position-x: center;
+    }
+
+
+    .contactsection {
+        height: 55rem;
+        margin: -1.9rem 0rem -0.8rem 0rem;
+    }
+
+    .googlemap {
+        padding: 1rem 0rem 0rem 0rem;
+    }
+}
+
+@media (min-width:2040px) and (max-width:2143px) {
+    .logosec {
+        margin: 0rem 84rem 0rem 0rem;
+    }
+
+    .backgroundimage>img {
+        height: 54rem;
+    }
+
+    .headercontent {
+        margin: 14rem 39.3rem;
+    }
+
+    .services {
+        margin-top: 54rem;
+        height: 50rem;
+        background-position-y: center;
+    }
+
+    .about {
+        height: 65rem;
+        background-position-x: center;
+    }
+
+    .contactsection {
+        height: 55rem;
+        margin: -1.9rem 0rem -0.8rem 0rem;
+    }
+
+    .workingdays {
+        font-size: 2rem;
+        width: 40rem;
+    }
+
+    .workingdays>h1 {
+        line-height: 9rem;
+    }
+
+    .workingdays>p {
+        font-size: 2rem;
+        line-height: 4rem;
+    }
+
+    .googlemap {
+        padding: 1rem 0rem 0rem 0rem;
+    }
+}
+
+@media (min-width:2561px) {
+    .backgroundimage>img {
+        height: 80rem;
+    }
+
+    .headercontent {
+        margin: 26rem 0rem 0rem 35rem;
+        width: 86rem;
+        height: 21rem;
+        font-size: 3.5rem;
+        word-spacing: 1rem;
+        line-height: 5rem;
+    }
+
+    .headercontent>p {
+        font-size: 2.5rem;
+    }
+
+    .headercontent>hr {
+        top: 18rem;
+        width: 72rem;
+    }
+
+    .logosec {
+        margin: 0rem 110rem;
+    }
+
+    .logo {
+        display: none;
+    }
+
+    .namelogo {
+        width: 52rem;
+    }
+
+    .menu ul {
+        width: 60rem;
+        font-size: 2rem;
+    }
+
+    .services {
+        height: 111rem;
+        margin-top: 76rem;
+    }
+
+    .servicesheading {
+        margin-top: 41rem;
+    }
+
+    .servicesheading>h1 {
+        font-size: 4.5rem;
+        margin: 2rem 0rem;
+    }
+
+    .servicestagline>h1 {
+        font-size: 3rem;
+    }
+
+    .for-shadow {
+        width: 22rem;
+        line-height: 5rem;
+        font-size: 2.5rem;
+        margin: 10rem 0rem 0rem 0rem;
+    }
+
+    .about {
+        height: 68rem;
+    }
+
+    .ownerpic {
+        margin-top: -26rem;
+        position: absolute;
+    }
+
+    .ownerpic>img {
+        width: 23rem;
+    }
+
+    .ownerpic>p {
+        width: 27rem;
+        font-size: 3rem;
+        line-height: 6rem;
+    }
+
+    .forAboutHeadingAndAboutDescription {
+        position: relative;
+        margin-top: 33rem;
+        width: 83rem;
+    }
+
+    .contactsection {
+        margin-top: -1rem;
+        height: 70rem;
+    }
+
+    .contactus {
+        width: 63rem;
+        height: 28rem;
+        font-size: 1.5rem;
+        line-height: 5rem;
+    }
+
+    .contactinfofornumber {
+        width: 58rem;
+    }
+
+    .contactinfofornumber>img {
+        width: 4.5rem;
+    }
+
+    .contactinfofornumber>a {
+        font-size: 3.5rem;
+    }
+
+    .contactinfoformail {
+        width: 34rem;
+    }
+
+    .contactinfoformail>img {
+        width: 4.5rem;
+    }
+
+    .contactinfoformail>a {
+        font-size: 3.5rem;
+    }
+
+    .workingdays {
+        height: 49rem;
+        width: 46rem;
+        font-size: 2.3rem;
+        line-height: 5rem;
+    }
+
+}
